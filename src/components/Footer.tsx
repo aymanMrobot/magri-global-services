@@ -1,5 +1,3 @@
-import { Sun } from 'lucide-react';
-
 export default function Footer() {
   return (
     <footer className="bg-slate-900 pt-20 pb-10">
