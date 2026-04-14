@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --color-primary: #003366; /* Deep blue */
+  --color-primary-light: #00509e;
+  --color-secondary: #fadb5f; /* Solar Gold/Yellow */
+  --color-secondary-light: #fce888;
+  --color-background: #f8fafc;
+  --color-text: #0f172a;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
